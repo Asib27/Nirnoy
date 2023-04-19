@@ -1,0 +1,77 @@
+/* General styles */
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	background-color: #333;
+	color: #fff;
+	padding: 1rem;
+}
+
+h1, h2 {
+	margin-top: 0;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav li {
+	display: inline-block;
+	margin-right: 1rem;
+}
+
+nav a {
+	color: #fff;
+	text-decoration: none;
+}
+
+main {
+	margin: 1rem;
+}
+
+section {
+	margin-bottom: 2rem;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+}
+
+/* Mission section */
+#mission {
+	background-color: #f2f2f2;
+	padding: 2rem;
+}
+
+/* Vision section */
+#vision {
+	background-color: #e6e6e6;
+	padding: 2rem;
+}
+
+/* Product section */
+#product {
+	background-color: #f2f2f2;
+	padding: 2rem;
+}
+
+/* Team section */
+#team {
+	background-color: #e6e6e6;
+	padding: 2rem;
+}
+
+/* Footer styles */
+footer {
+	background-color: #333;
+	color: #fff;
+	padding: 1rem;
+	text-align: center;
+}
