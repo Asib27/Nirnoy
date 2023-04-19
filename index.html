@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
     <title>Nirnoy</title>
 </head>
@@ -50,76 +51,124 @@
 			<p>Our products are designed to be user-friendly, durable, and affordable.</p>
 		</section>
 
-		<section id="features">
+		<section id="features" class="card">
 			<h2>Features</h2>
 
-			<ul>
-				<li>Low cost</li>
-				<li>Light weight</li>
-				<li>Portability</li>
-				<li>Easy Avaibility</li>
-				<li>Accurate Diagnosis for all</li>
-			</ul>
-		</section>
-
-		<section id="swot">
-			<div>
-				<h2>Strength</h2>
-				<ul>
-					<li>Budget Friendly</li>
-					<li>Easy to operate setup</li>
-					<li>Portability</li>
-				</ul>
-			</div>
-
-			<div>
-				<h2>Weakness</h2>
-				<ul>
-					<li>Less repeatability</li>
-					<li>Less accuracy</li>
-					<li>Less sophisticated light source</li>
-					<li>Only 2 microtiter well</li>
-				</ul>
-			</div>
-
-			<div>
-				<h2>Oppurtunity</h2>
-				<ul>
-					<li>Patients can get more accurate result in low cost</li>
-					<li>Doctors can get quantative overview of patients condition instead of YES or NO from RDT test</li>
-					<li>Government will be able to provide more accurate low cost elisa to govt hospitals</li>
-				</ul>
-			</div>
-
-			<div>
-				<h2>Threats</h2>
-				<ul>
-					Our weakness is our biggest threats. If we can overcome them,
-					we will be able to turn our aim into reality.
+			<div class="card-body">
+				<ul class="list-group list-group-flush">
+					<li class="list-group-item">Low cost</li>
+					<li class="list-group-item">Light weight</li>
+					<li class="list-group-item">Portability</li>
+					<li class="list-group-item">Easy Avaibility</li>
+					<li class="list-group-item">Accurate Diagnosis for all</li>
 				</ul>
 			</div>
 		</section>
-		
+
+		<section id="swot" class="row">
+			<div class="card col-sm-5 m-1 p-2" >
+				<h2 class="card-title">Strength</h2>
+				<ul class="list-group list-group-flush card-body">
+					<li class="list-group-item">99% accurate
+						antibody test</li>
+					<li class="list-group-item">Easy
+						availability in
+						all hospitals</li>
+					<li class="list-group-item">Very low cost
+						test and Elisa
+						setup</li>
+					<li class="list-group-item">Reports can
+						be provided
+						within 1 hour</li>
+					<li class="list-group-item">Light weight
+						design, easily
+						portable</li>
+				</ul>
+			</div>
+
+			<div class="card col-sm-5 m-1 p-2">
+				<h2 class="card-title">Weakness</h2>
+				<ul class="list-group list-group-flush card-body">
+					<li class="list-group-item">In our very
+						first year, we
+						cannot
+						provide our
+						service to all
+						the health
+						care facilities
+						of
+						Bangladesh</li>
+					<li class="list-group-item">We have to
+						increase the
+						accuracy of
+						prototype</li>
+					</ul>
+			</div>
+
+			<div class="card col-sm-5 m-1 p-2">
+				<h2 class="card-title">Oppurtunity</h2>
+				<ul class="list-group list-group-flush card-body">
+					<li class="list-group-item">We are the first
+						manufacturers
+						of Elisa setup
+						in Bangladesh,
+						hence can
+						work with any
+						health care
+						Centre of
+						Bangladesh.</li>
+					<li class="list-group-item">Can help the
+						Government
+						ensure
+						accurate
+						antibody tests
+						for all</li>
+					</ul>
+			</div>
+
+			<div class="card col-sm-5 m-1 p-2">
+				<h2 class="card-title">Threats</h2>
+				<p class="card-body">
+					We have local
+					RDT tests and
+					imported Elisa
+					setups as our
+					competitors in
+					the market.
+				</p>
+			</div>
+		</section>
+
 		<section id="team">
-			<h2>Meet Our Team</h2>
-			<div class="container">
-				<div class="row">
-					<div class="team-item">
-						<img src="team-member-1.jpg" alt="Team Member 1">
-						<h3>Chaity</h3>
-						<p>CEO</p>
-					</div>
-					<div class="team-item">
-						<img src="team-member-2.jpg" alt="Team Member 2">
-						<h3>Nishat</h3>
-						<p>COO</p>
-					</div>
-					<div class="team-item">
-						<img src="team-member-2.jpg" alt="Team Member 2">
-						<h3>Labiba</h3>
-						<p>COO</p>
+			<div class="row">
+				<div class="col-sm-3">
+				<div class="card">
+					<img src="team-member-1.jpg" alt="Team Member 1">
+					<div class="card-body">
+						<h5 class="card-title">Labiba Islam Salsabil</h5>
+						<p class="card-text">Co-Ordinator at Ankur International and Certified Supply Chain Analyst, ISECA </p>
 					</div>
 				</div>
+				</div>
+				<div class="col-sm-3">
+				<div class="card">
+					<img src="team-member-1.jpg" alt="Team Member 1">
+					<div class="card-body">
+						<h5 class="card-title">Chaity Chakrabarty</h5>
+						<p class="card-text">Head of research and product development, Thought leader and product developer of Nirnoy</p>
+					</div>
+				</div>
+				</div>
+
+				<div class="col-sm-3">
+					<div class="card">
+						<img src="team-member-1.jpg" alt="Team Member 1">
+						<div class="card-body">
+							<h5 class="card-title">Nishat Tasnim</h5>
+							<p class="card-text"> CFO, Business model founder of Nirnoy</p>
+						</div>
+					</div>
+					</div>
 			</div>
 		</section>
 		
